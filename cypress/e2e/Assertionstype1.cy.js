@@ -3,8 +3,6 @@
 // Validation Or Checking 
 // Assertion type 1: Implicit Assertion
  
-
-
 it('Assertions Implicit', () => {
     
    cy.visit('https://example.cypress.io') 
