@@ -9,7 +9,7 @@
 
 describe('All Login Tests', function () {
 
-    it('Page Object Model', () => {
+    it('Page Object Model or Login Test 1', () => {
 
         // using the functions from LoginPage class
 
@@ -36,7 +36,7 @@ describe('All Login Tests', function () {
     });
 
 
-    it('Page Object Model', () => {
+    it('Login Test 2', () => {
 
         // using the functions from LoginPage class
 

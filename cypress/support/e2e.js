@@ -14,7 +14,11 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import './commands' 
+
+beforeEach(function() {
+    cy.log(' I am indside e2e.js ')
+})
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
