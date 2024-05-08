@@ -26,14 +26,18 @@ it('Read file using readFile()', function(){
 })
 
 
-
 // This will be use for write the file
 
 it('Write file using writeFile()', function(){
 
-   cy.writeFile
+   cy.writeFile ('sample.text', 'Hello, I am Raghav')
+
+   cy.writeFile ('sample.text', 'I am Learning Cypress', {})
 
 })
+
+
+
 
     
        
